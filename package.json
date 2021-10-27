@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "NODE_ENV=production npx tailwindcss -i css/tailwind.css -o dist/css/styles.css --watch --postcss --minify",
+    "watch": "npx tailwindcss -i css/tailwind.css -o dist/css/styles.css --watch --postcss"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.16"
+  }
+}
